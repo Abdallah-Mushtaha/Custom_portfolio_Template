@@ -39,7 +39,7 @@ export default function Nav() {
             </span>
           </a>
 
-          <ul className="flex gap-12 md:gap-6 text-white text-sm md:text-base items-center sm:justify-center">
+          <ul className="flex gap-5 md:gap-6 text-white text-sm md:text-base items-center sm:justify-center ">
             {navLinks.map((link, idx) => (
               <li key={idx}>
                 <button
