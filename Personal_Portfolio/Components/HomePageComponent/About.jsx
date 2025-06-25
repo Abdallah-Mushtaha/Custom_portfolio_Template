@@ -36,7 +36,7 @@ export default function About() {
               <img
                 src={item.img}
                 alt={`${item.name} Avatar`}
-                className="rounded-full shadow-lg w-48 sm:h-48 w-70 md:h-70 object-cover border-2 border-yellow-500 mb-6 md:mb-0 md:mr-8 p-2 border-t-inherit border-s-inherit  border-dashed "
+                className="rounded-full shadow-lg w-48 h-48 md:w-70 md:h-70 object-cover border-2 border-yellow-500 mb-6 md:mb-0 md:mr-8 p-2 border-t-inherit border-s-inherit  border-dashed "
               />
 
               <div className="text-center md:text-left max-w-2xl md:flex-grow">

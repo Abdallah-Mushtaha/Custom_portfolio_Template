@@ -8,15 +8,19 @@ import Nav from "./Nave";
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-4 py-8 relative">
-      <div className="fixed inset-0  -z-10 bg-[url('https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf065_noise-50.avif')]"></div>
+    <>
       <Nav />
-      <Hero />
+      <div className="container mx-auto px-4 py-8 relative">
+        <div className="fixed inset-0  -z-10 bg-[url('https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf065_noise-50.avif')]"></div>
+        <Hero />
+      </div>
       <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div className="container mx-auto px-4 py-8 relative">
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
