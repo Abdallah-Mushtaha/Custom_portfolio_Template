@@ -73,11 +73,11 @@ export default function Footer() {
             alt="portfolio logo"
           />
           <div className="div w-full">
-            <h2 className="text-xl font-bold mb-4">
+            <h2 className="text-xl font-bold mb-4 w-50">
               <span className="text-yellow-500">A</span>bood{" "}
               <span className="text-yellow-500">M</span>ushtaha
             </h2>
-            <p className="text-gray-400 text-sm leading-relaxed w-65">
+            <p className="text-gray-400 text-sm leading-relaxed w-50">
               Frontend developer passionate about creating elegant and
               performance focused user experiences. Let’s build something
               incredible together.
