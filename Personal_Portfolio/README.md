@@ -1,12 +1,58 @@
-# React + Vite
+# Abood-Mushtaha | Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🇬🇧 English Description
 
-Currently, two official plugins are available:
+This is a **fully responsive portfolio website** built with **React**, **Tailwind CSS**, and **JavaScript**. The entire design and layout were **custom-crafted from scratch** — no external templates or UI kits were used. The site showcases personal projects, a hero introduction, and smooth animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✨ Features
 
-## Expanding the ESLint configuration
+- Responsive design for all screen sizes
+- Built with React functional components
+- Styled using Tailwind CSS utility-first classes
+- Smooth animations using GSAP and transitions
+- Dynamic project gallery with conditional hover preview
+- Clean and organized component-based structure
+- Purely original design and UX thinking
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛠️ Tech Stack
+
+- **React.js**
+- **Tailwind CSS**
+- **JavaScript**
+- **GSAP (GreenSock Animation Platform)**
+
+### 📁 Project Structure
+
+```bash
+Personal_Portfolio/
+├── Components/
+│ └── HomePageComponents/
+│ └── Project.jsx
+├── Containers/
+│ ├── HomePage.jsx
+│ └── Nave.jsx
+├── node_modules/
+├── public/
+│ ├── Images/
+│ ├── webfonts/
+│ └── all.min.css
+├── src/
+│ ├── assets/
+│ ├── App.css
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── projects.json
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+## Final Words 🙌
+
+Building this portfolio was not just a way to present my work — it was a reflection of my growth as a developer, my attention to detail, and my passion for creating beautiful and functional user interfaces from scratch.
+
+Thank you for checking it out!
+Feel free to explore, get inspired, or reach out if you'd like to connect or collaborate.
