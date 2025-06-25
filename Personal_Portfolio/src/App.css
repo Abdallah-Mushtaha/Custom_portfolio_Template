@@ -1,13 +1,15 @@
 @import "tailwindcss";
+
 body,
 header {
   background: linear-gradient(
     270deg,
-    /* rgb(199, 199, 199) 0%, */ rgb(37, 37, 37) 0%,
+    rgb(37, 37, 37) 0%,
     rgb(75, 75, 75) 27%,
     rgba(71, 71, 71, 1) 53%,
-    #000000 100%
+    #000000 100% /* rgb(199, 199, 199) 0%, */
   );
+  overflow-x: hidden !important;
 }
 .Primary-Text {
   color: #dfd0b8;
@@ -19,8 +21,7 @@ body {
   margin-top: -28px !important;
 }
 header {
-  /* background-image: url("https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf065_noise-50.avif"); */
   position: sticky;
-  box-shadow: 0 0.5px 0px rgb(39, 39, 39); /* الظل */
-  -webkit-backdrop-filter: blur(6px); /* دعم للـ Safari */
+  box-shadow: 0 0.5px 0px rgb(39, 39, 39);
+  -webkit-backdrop-filter: blur(6px);
 }

@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Portofolio Project",
+    "desc": "A simple project description that explains the purpose of the project and what technologies were used.",
+    "mainImage": "../Images/SitePortofolio.png",
+    "gallery": [
+    ],
+    "technologies": ["React", "Tailwind", "API"],
+    "live": "#",
+    "source": "https://github.com/Abdallah-Mushtaha/Portfolio"
+  }
+
+]
