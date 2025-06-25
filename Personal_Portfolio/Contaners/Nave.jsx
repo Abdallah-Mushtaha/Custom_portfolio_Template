@@ -27,7 +27,7 @@ export default function Nav() {
   return (
     <header className="sticky top-0 bg-black/60 backdrop-blur-lg shadow-lg z-50">
       <nav className="font-bold">
-        <div className="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-6 lg:px-8 h-16">
+        <div className="max-w-7xl mx-auto flex justify-between items-center px-3  md:px-6 lg:px-8 h-16">
           <a href="#Home" className="text-white text-xl font-semibold">
             <span className="text-yellow-500">A</span>bood{" "}
             <span className="sm:display hidden sm:inline">
