@@ -52,7 +52,7 @@ export default function Hero() {
         <h1 className="text-4xl sm:text-7xl font-extrabold leading-tight wrap-normal mb-0">
           Hey there! 👋, I'm <AnimatedText text="Abood-R" />
         </h1>
-        <h1 className="text-4xl sm:text-7xl font-extrabold leading-tight wrap-normal">
+        <h1 className="text-md sm:text-xl font-extrabold leading-tight wrap-normal">
           <AnimatedText text="Mushtaha" />
         </h1>
 
