@@ -3,7 +3,7 @@ import "../src/App.css";
 
 export default function Nav() {
   const navLinks = [
-    { label: "Home", key: "home" },
+    { label: "Home", key: "Home" },
     { label: "About", key: "about" },
     {
       label: "Projects",
@@ -29,14 +29,17 @@ export default function Nav() {
       <nav className="font-bold">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-6 lg:px-8 h-16">
           <a href="#Home" className="text-white text-xl font-semibold">
-            <span className="text-yellow-500">A</span>bood{" "}
+            <span>
+              <span className="text-yellow-500 md:hidden">A</span>
+              <span className="text-white md:hidden">m</span>
+            </span>
             <span className="sm:display hidden sm:inline">
-              {" "}
+              <span className="text-yellow-500">A</span>bood{" "}
               <span className="text-yellow-500">M</span>ushtaha{" "}
             </span>
           </a>
 
-          <ul className="flex gap-6 text-white text-sm md:text-base items-center">
+          <ul className="flex gap-12 md:gap-6 text-white text-sm md:text-base items-center sm:justify-center">
             {navLinks.map((link, idx) => (
               <li key={idx}>
                 <button
