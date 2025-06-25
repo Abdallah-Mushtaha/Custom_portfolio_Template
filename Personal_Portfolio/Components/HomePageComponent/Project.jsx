@@ -28,7 +28,7 @@ export default function Projects() {
               key={index}
               className="flex flex-col md:flex-row md:justify-between items-center gap-10 bg-black/60 rounded-xl overflow-hidden shadow-lg p-6"
             >
-              <div className="relative w-full md:w-1/2 h-48 md:h-auto group">
+              <div className="relative w-full md:w-1/2 h-auto md:h-auto group">
                 <img
                   src={project.mainImage}
                   alt={project.name}
