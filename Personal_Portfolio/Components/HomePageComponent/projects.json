@@ -1,7 +1,7 @@
 [
   {
     "name": "Portofolio Project",
-    "desc": "A simple project description that explains the purpose of the project and what technologies were used.",
+    "desc": "This is a personal portfolio websiteIt showcases my bio, skills, past projects, and contact information within a clean, modern, and fully responsive design, The project emphasizes performance, smooth user experience, and reusable component structure for easy maintenance and scalability.",
     "mainImage": "../Images/SitePortofolio.png",
     "gallery": [
     ],

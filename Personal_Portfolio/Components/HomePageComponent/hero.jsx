@@ -49,7 +49,7 @@ export default function Hero() {
       <HeroLottie className="block md:hidden w-full h-[400px]" />
 
       <div className="flex-1 space-y-6 text-center md:text-left">
-        <h1 className="text-4xl sm:text-7xl font-extrabold leading-tight">
+        <h1 className="text-4xl sm:text-7xl font-extrabold leading-tight wrap-normal">
           Hey there! 👋, I'm <AnimatedText text="Abood-Mushtaha" />
         </h1>
 
