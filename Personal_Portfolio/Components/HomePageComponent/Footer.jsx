@@ -72,7 +72,7 @@ export default function Footer() {
             className="w-80 h-35 object-cover object-center rounded-full mb-4 shadow-md border-2 p-2 border-yellow-500 border-dashed border-b-inherit border-e-inherit"
             alt="portfolio logo"
           />
-          <div className="dev">
+          <div className="div">
             <h2 className="text-xl font-bold mb-4">
               <span className="text-yellow-500">A</span>bood{" "}
               <span className="text-yellow-500">M</span>ushtaha

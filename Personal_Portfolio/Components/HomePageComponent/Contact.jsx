@@ -47,7 +47,7 @@ export default function Contact() {
           something amazing together.
         </p>
 
-        <div className="flex w-full justify-center items-center">
+        <div className="flex  justify-center items-center">
           <form
             onSubmit={handleSubmit}
             className="w-full space-y-6 p-6 rounded-2xl shadow-md"
