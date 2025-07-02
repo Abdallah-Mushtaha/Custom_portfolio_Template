@@ -21,11 +21,11 @@ export default function About() {
     <>
       <section
         id="about"
-        className="relative py-20 px-4  overflow-hidden text-white"
+        className="relative py-20 px-4  overflow-hidden rounded-lg shadow-lg   text-white"
       >
-        <VantaBackground />
+        {/* <VantaBackground /> */}
 
-        <div className="absolute inset-0 bg-black/40 z-0" />
+        <div className="absolute inset-0 bg-black/60 z-0" />
 
         <div className="relative z-10 max-w-6xl mx-auto px-4">
           {aboutData.map((item, idx) => (
@@ -40,7 +40,9 @@ export default function About() {
               />
 
               <div className="text-center md:text-left max-w-2xl md:flex-grow">
-                <h2 className="text-3xl font-bold mb-6">{item.title}</h2>
+                <h2 className="text-md font-bold text-yellow-500 mb-6 inline-block bg-black/40 px-4 py-2 rounded-lg">
+                  {item.title}
+                </h2>
                 <p className="mb-4">{item.intro}</p>
                 {item.paragraphs.map((text, i) => (
                   <p

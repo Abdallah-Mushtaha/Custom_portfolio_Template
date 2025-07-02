@@ -1,13 +1,22 @@
 @import "tailwindcss";
 
-body,
-header {
+body {
+  /*
+Old Gradient
   background: linear-gradient(
     270deg,
     rgb(37, 37, 37) 0%,
     rgb(75, 75, 75) 27%,
     rgba(71, 71, 71, 1) 53%,
-    #000000 100% /* rgb(199, 199, 199) 0%, */
+    #000000 100% /* rgb(199, 199, 199) 0%, 
+  );
+*/
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgb(0, 118, 141) 100%
   );
   overflow-x: hidden !important;
 }
@@ -20,8 +29,8 @@ header {
 body {
   margin-top: -28px !important;
 }
-header {
+.header {
   position: sticky;
-  box-shadow: 0 0.5px 0px rgb(39, 39, 39);
-  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 3px 4px 10px rgb(0, 0, 0);
+  backdrop-filter: blur(8px);
 }

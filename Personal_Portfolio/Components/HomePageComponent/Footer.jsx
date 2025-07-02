@@ -63,7 +63,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="text-white py-12 px-6 bg-black/40 mt-20 -mb-20">
+    <footer className="text-white py-12 px-6 bg-black/60 mt-20 -mb-20">
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 items-start">
         {/* About */}
         <div className="flex items-center gap-8">

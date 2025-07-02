@@ -32,7 +32,7 @@ export default function Projects() {
                 <img
                   src={project.mainImage}
                   alt={project.name}
-                  className="w-400 h-100 object-cover rounded-lg object-center"
+                  className="w-400 h-100 object-cover rounded-lg object-center border-2 border-gray-500"
                 />
 
                 {hasEnoughGallery && (

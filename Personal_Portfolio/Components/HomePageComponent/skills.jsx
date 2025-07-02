@@ -65,7 +65,7 @@ export default function Skills() {
             {skills.map((skill, idx) => (
               <div
                 key={idx}
-                className="skill-item bg-black/50 p-6 rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
+                className="skill-item bg-black/60 p-6 rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
               >
                 <div className="dev flex justify-center items-center gap-3 flex-wrap">
                   {skill.img.map((src, i) => (
